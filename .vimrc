@@ -5,7 +5,7 @@ if has("syntax")
 endif
 set novisualbell
 set hlsearch
-colorscheme slate
+colorscheme cobalt2
 
 set nocompatible
 filetype off
@@ -17,7 +17,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'majutsushi/tagbar'
 Bundle 'scrooloose/nerdtree'
-Bundle 'bling/vim-airline'
+Bundle 'vim-airline/vim-airline-themes'
 Bundle 'tpope/vim-surround'
 "Bundle 'Valloric/YouCompleteMe'
 
